@@ -4,4 +4,4 @@
 cd /var/www/html/saucedemoapp
 
 # Start the application
-npm run start &
+npm run start > /dev/null 2> /dev/null < /dev/null &
