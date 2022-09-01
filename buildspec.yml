@@ -9,5 +9,5 @@ phases:
       - npm install
   build:
     commands:
-      - Running the linter
+      - echo Running the linter
       - npm run test.lint
