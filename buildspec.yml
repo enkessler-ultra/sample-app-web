@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      - nodejs: 14.x
+    commands:
+      - echo Installing Node packages
+      - npm install
+  build:
+    commands:
+      - Running the linter
+      - npm run test.lint
